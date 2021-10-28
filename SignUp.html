@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+</head>
+<body>
+	<div class="container signUp">
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="well well-lg">
+					<img src="images/logoGift.png" class="newImg1">
+					<h4>Gift Store</h4>
+					<h2>A few clicks away<br> from getting your<br> new gift.</h2>
+					<img src="images/signUp.png" class="newImg2">
+					
+				</div>
+			</div>
+
+			<div class="col-lg-7">
+				<form action="index.html">
+					<h4 class="registerHeading">
+						Register
+					</h4>
+					<h5>
+						Manage all your gifts efficiently
+					</h5>
+					<p>Lets get all your setup so you can verify your personal account<br>
+					and begin setting up your profile</p>
+					<div class="col-lg-5">
+					<label class="flabel">First Name</label><br>
+					<input type="text" name="fname" id="fname" class="fname" required="">
+					<label class="plabel">Phone Number</label><br>
+					<input type="text" name="pnum" id="pnum" class="pnum" required="" maxlength="11">
+					<label class="pwlabel">Password</label><br>
+					<input type="password" name="pwd" id="pwd" class="pwd" required="" maxlength="15"><br>
+					<input type="checkbox" name="cbox" id="cbox" class="cbox">
+					<p class="pr1">Yes, I want to recieve<br> gift store emails</p>
+					<input type="checkbox" name="cbox1" id="cbox1" class="cbox1">
+					<p class="pr1">I agree to all the Term,<br> Privacy Policy and Fees</p>
+					<button type="submit" class="btn btn-primary btn-sm">Create Account</button>
+					<p class="pg1">Already have an account,
+						<a href="Login.html">Log in
+						</a></p>
+					</div>
+
+					<div class="col-lg-5">
+					<label class="Llabel">Last Name</label><br>
+					<input type="text" name="lname" id="lname" class="lname" required=""><br>
+					<label class="elabel">Email</label><br>
+					<input type="email" name="email" id="email" class="email" required="">
+					<label class="clabel">Confirm Password</label><br>
+					<input type="password" name="cnum" id="cnum" class="cnum" required="" maxlength="15">
+				    </div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

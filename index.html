@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+</head>
+<body>
+	<!--start of header section-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="topnav">
+					<img src="images/logoGift.png" class="img">
+					<a href="">Home</a>
+					<a href="">Categories</a>
+					<a href="">Contact Us</a>
+					<a href="">Our Brands</a>
+					<a href="SignUp.html" class="SignUp">
+					<button class="btn btn-danger btn-md">SignUp</button>
+					</a>
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--End of header section-->
+
+	<!--start of banner setion-->
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="carousel slide" id="slider" data-ride="carousel">
+					<div class="carousel-inner">
+						<!--div to ensure one carousel item should be active at a time-->
+						<ol class="carousel-indicators">
+							<li class="active" data-slide-to="0"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="item active" id="slide1">
+							<img src="images/banner1.jpg">
+							<!--div to write text over an image-->
+							<div class="carousel-caption">
+								<h3>The Best Gift Shop<br>
+								Providing happiness to you loved ones</h3>
+								<p>We provide gifts for different occasions and it<br>
+									will be a great delight for our customers
+								</p>
+							</div>
+						</div>
+
+						<div class="item" id="slide2">
+							<img src="images/banner2.jpg">
+							<!--div to write text over an image-->
+							<div class="carousel-caption">
+								<h3>The Best Gift Shop<br>
+								Providing happiness to you loved ones</h3>
+								<p>We provide gifts for different occasions and it<br>
+									will be a great delight for our customers
+								</p>
+							</div>
+						</div>
+
+						<div class="item" id="slide3">
+							<img src="images/banner3.jpg">
+							<!--div to write text over an image-->
+							<div class="carousel-caption">
+								<h3>The Best Gift Shop<br>
+								Providing happiness to you loved ones</h3>
+								<p>We provide gifts for different occasions and it<br>
+									will be a great delight for our customers
+								</p>
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#slider" data-slide="prev" role="button">
+						<span class="icon-prev"></span>
+					</a>
+					<a class="right carousel-control" href="#slider" data-slide="next" role="button">
+						<span class="icon-next"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end of banner section-->
+
+	<section class="FindGifts">
+		<div class="container">
+			<div class="row">
+				<div class="well well-lg">
+                    <form action="index.html">
+                    <p>What to deliver?</p>
+					<select class="selectDeliveries" required="">
+						<option>Party Poppers</option>
+						<option>Ballons</option>
+						<option>Gift vouchers</option>
+						<option>Giffy Hampers</option>
+					</select>
+					<p>Delivery date?</p>
+					<input type="number" name="" min="1" max="30" required="">
+					<button class="btn btn-danger btn-md" type="submit">Submit</button>
+				    </form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="Collections">
+		<div class="container">
+			<div class="row">
+				<center><h3>Our Collections</h3>
+				<div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+				<div class="imageBorder">
+				<img src="images/collec1.png">
+				<h4>Gift Box 1</h4>
+				<p>Price: $250</p>
+				<a href="productDetails.html">
+				<button class="btn btn-danger btn-sm">Add to Cart</button>
+			    </a>
+<!--			<img src="images/stars1.png" class="ratings">-->
+				</div>
+			    </div>
+
+			    <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+				<div class="imageBorder">
+				<img src="images/collec2.png">
+				<h4>Gift Box 2</h4>
+				<p>Price: $350</p>
+				<a href="productDetails.html">
+				<button class="btn btn-danger btn-sm">Add to Cart</button>
+			    </a>
+<!--			<img src="images/stars1.png" class="ratings">-->
+				</div>
+				</div>
+
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+				<div class="imageBorder">
+				<img src="images/collec3.png">
+				<h4>Gift Box 3</h4>
+				<p>Price: $500</p>
+				<a href="productDetails.html">
+				<button class="btn btn-danger btn-sm">Add to Cart</button>
+				</a>
+<!--			<img src="images/stars1.png" class="ratings">-->
+				</div>
+			    </div>
+			    </center>
+		    </div>
+	    </div>
+	</section>
+
+	<section class="blogFeed">
+		<div class="container">
+			<div class="row">
+				<center>
+				<div class="col-lg-4">
+					<h3>Twitter Feed</h3>
+					<p>There are many variations of passages of Lorem Ipsum<br>
+					available, but the majority have suffered alteration in<br>
+					some form, by injected humour, or randomised words<br>
+					which, don't look even slightly believable.</p>
+				</div>
+
+				<div class="col-lg-4">
+					<h3>Instagram Feed</h3>
+					<p>There are many variations of passages of Lorem Ipsum<br>
+					available, but the majority have suffered alteration in<br>
+					some form, by injected humour, or randomised words<br>
+					which, don't look even slightly believable.</p>
+				</div>
+
+				<div class="col-lg-4">
+					<h3>Facebook Feed</h3>
+					<p>There are many variations of passages of Lorem Ipsum<br>
+					available, but the majority have suffered alteration in<br>
+					some form, by injected humour, or randomised words<br>
+					which, don't look even slightly believable.</p>
+				</div>
+				</center>
+			</div>
+		</div>
+	</section>
+
+	<section class="videoGallery">
+		<div class="container">
+			<div class="col-lg-12">
+				<!--First row for 4 youtube screens-->
+				<h3 class="text-center">Video Gallery</h3>
+				<div class="row">
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/XZJ7Dk8VSJI" allowfullscreen frameborder="0"></iframe>
+						<center><label>CHOOSE YOUR GIFT</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/BItbtFltldE" allowfullscreen frameborder="0"></iframe>
+						<center><label>BLACK VS WHITE</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/MfZEAyrmsGY" allowfullscreen frameborder="0"></iframe>
+						<center><label>BLACK VS RED</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/umQgV-xpTRM" allowfullscreen frameborder="0"></iframe>
+						<center><label>CHOOSE LUXURY GIFT</label></center>
+					</div>
+				</div>
+
+				<!--Second row for 4 youtube screens-->
+				<div class="row">
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/HZOU0VJTaNk" allowfullscreen frameborder="0"></iframe>
+						<center><label>CHOOSE YOUR GIFT<br> / ВЫБЕРИТЕ</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/D77SDwzZnG4" allowfullscreen frameborder="0"></iframe>
+						<center><label>CHOOSE YOUR GIFT<br> // ELIGE TU REGALO #3</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/_JXeZTx-8Qg" allowfullscreen frameborder="0"></iframe>
+						<center><label>Elige un Regalo Versión<br> Youtubers 2</label></center>
+					</div>
+
+					<div class="col-lg-3 videoScreen">
+						<iframe src="https://www.youtube.com/embed/umQgV-xpTRM" allowfullscreen frameborder="0"></iframe>
+						<center><label>Elige un Regalo Versión<br> Youtuber 4</label></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--start of services section-->
+	<section class="services">
+		<div class="container">
+			<div class="row">
+				<div class="well-lg">
+					<center>
+					<div class="col-lg-4">
+						<i class="fa fa-map-marker fa-sm" aria-hidden="true">
+						<a href="">Find a Store</a>
+						<p>Choose Your Store</p>
+					    </i>
+				    </div>
+
+				    <div class="col-lg-4">
+				    	<i class="fa fa-comments" aria-hidden="true">
+				    		<a href="">Need Gifts, go live</a>
+				    		<p>Chats are available</p>
+				    	</i>
+				    </div>
+
+				    <div class="col-lg-4">
+				    	<i class="fa fa-phone" aria-hidden="true">
+				    		<p>1-877-737-4672<br>
+				    			TTY: 1-888-866-9845
+				    		</p>
+				    	</i>
+				    </div>
+				</center>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- start of footer section-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3 class="text-center">About Gift Store</h3>
+					<p class="text-center p1">In publishing and graphic design, Lorem ipsum is a<br>
+					                       placeholder text commonly used to demonstrate the<br>
+					                       visual form of a document or a typeface without<br>
+					                       relying on meaningful content.</p>
+				</div>
+            
+               <div class="col-lg-4">
+					<h3 class="text-center">Need Help</h3>
+					<a href="">Customer Service</a>
+                    <a href="">Returns & Exchanges</a>
+                    <a href="">Delivery and Pickup Options</a>
+                    <a href="">Shipping</a>
+				</div>
+
+				<div class="col-lg-4">
+					<h3 class="text-center">Gifts Information</h3>
+					<a href="">Community Profile</a>
+                    <a href="">Order Status</a>
+                    <a href="">Purchase History</a>
+                    <a href="">Account Settings</a>
+				</div>
+			 </div>
+
+			 <div class="row row2">
+			 	<div class="col-lg-12">
+			 	<div class="well well-sm">
+			 		<p>© 2021 The best Gift Shop Pakistan, All rights reserved</p>
+			 	</div>
+			 	</div>
+			 </div>
+			   
+		    </div>
+    </footer>
+</body>
+</html>
