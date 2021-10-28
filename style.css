@@ -1,0 +1,423 @@
+*{
+	font-family: Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow-x: hidden;
+}
+header .topnav .img{
+	width: 54px;
+	height: 54px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+header .topnav{
+	background-color: #02BA88;
+	height: 74px;
+}
+header .topnav a{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+header .btn-danger{
+	text-decoration: none;
+	float: right;
+	color: white;
+	background-color: #E3331F;
+	font-weight: bold;
+	margin-right: 14px;		
+	margin-top: 17px;
+}
+header .SignUp{
+	text-decoration: none;
+}
+/*header .topnav a:hover{
+	background-color: white;
+	color: #02BA88;
+	padding-bottom: 26px;
+}
+header .topnav a.active{
+	background-color: white;
+	color: white;
+}*/
+header .topnav .fa-shopping-cart{
+	color: white;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+header .topnav .fa-user-circle{
+	color: white;
+	margin-left: 370px;
+}
+.banner .carousel-inner img{
+	width: 100%;
+	height: 500px;
+}
+.banner .carousel-inner h3{
+	padding-bottom: 10px;
+}
+.banner .carousel-inner p{
+	padding-bottom: 130px;
+}
+/*end of banner css*/
+
+/*start of gifts section*/
+.FindGifts .well-lg{
+	margin-top: 20px;
+	background-color: #02BA88;
+	height: 90px;
+}
+.FindGifts p{
+	padding-left: 180px;
+	font-weight: bold;
+	display: inline-block;
+	color: white;
+}
+.FindGifts .well-lg input{
+	margin-left: 10px;
+	width: 100px;
+	outline: none;
+}
+.FindGifts .selectDeliveries{
+	margin-left: 10px;
+	display: inline-block;
+}
+.FindGifts .btn-danger{
+	margin-left: 70px;
+	margin-top: 5px;
+	background-color: #E3331F;
+}
+/*end of gifts section*/
+.Collections h3{
+	padding-top: 30px;
+	font-weight: bold;
+}
+.Collections img{
+	margin-top: 20px;
+	width: 252px;
+	height: 212px;
+}/*
+.ratings{
+	padding: 97px 84px;
+}*/
+.Collections .col-lg-4{
+	margin-top: 20px;
+}
+.Collections .imageBorder{
+    border: 1px solid #ccc;
+    border-radius: 0 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    transition: 1s;
+    width: 300px;
+}
+.Collections .imageBorder:hover{
+    border: 1px solid #333;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+.Collections .imageBorder .btn-sm{
+	background-color: #E3331F;
+}
+.productDetails .col-lg-4{
+	padding-left: 180px;
+	padding-top: 50px;
+}
+.productDetails .col-lg-4 img{
+	height: 400px;
+	width: 360px;
+}
+.productDetails .col-lg-8 .productTxt{
+	padding-left: 150px;
+	padding-top: 100px;	
+}
+.productDetails .col-lg-8 .priceTxt{
+	padding-left: 150px;
+}
+.productDetails .col-lg-8 .cat1{
+	font-weight: bold;
+	padding-left: 150px;
+}
+.productDetails .col-lg-8 form input{
+	margin-left: 150px;
+	outline: none;
+}
+.productDetails form .addToCart{
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 150px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.productDetails h4{
+	padding-left: 150px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.productDetails .col-lg-8 .productDetail{
+	padding-left: 150px;
+}
+.CategoryB .item img{
+	margin-top: 20px;
+	display: block;
+	height: 150px;
+	width: 60%;
+	margin-left: 40px;
+}
+.blogFeed h3{
+	font-weight: bold;
+	padding-top: 30px;
+}
+.blogFeed .row{
+	padding-top: 30px;
+}
+.videoGallery iframe{
+	width: 100%;
+	height: 230px;
+	margin-top: 20px;
+	transition: width 2s, height 2s;
+}
+.videoGallery iframe:hover{
+	   height: 300px;
+}
+.videoGallery h3{
+	font-weight: bold;
+	padding-top: 30px;
+}
+.videoGallery label{
+	background-color: #E3331F;
+	color: white;
+	border-radius: 8px;
+	width: 165px;
+	font-size: 12px;
+}
+.videoGallery .videoScreen{
+	border: 1px solid #333;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 274px;
+}
+.videoGallery .row{
+	margin-bottom: 20px;
+}
+.videoGallery .videoScreen:hover{
+	background-color: #02BA88;
+}
+/*start of services section*/
+.services .well-lg .col-lg-4{
+	height: 70px;
+	margin-top: 20px;
+	background-color: #02BA88;
+}
+.services .well-lg .col-lg-4 i{
+	color: white;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.services .well-lg .col-lg-4 i>a{
+	font-size: 14px;
+	margin-left: 10px;
+	color: white;
+}
+.services .well-lg .col-lg-4 i>p{
+	font-size: 14px;
+	padding-left: 30px;
+	padding-top: 4px;
+}
+/*start of footer ection*/
+footer .col-lg-4 h3{
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: 22px;
+}
+footer .col-lg-4 .p1{
+	padding-top: 8px;
+	font-style: italic;
+}
+footer .col-lg-4 a{
+	font-style: italic;
+	color: #424742;
+	display: flex;
+	margin-top: 17px;
+	margin-left: 110px;	
+}
+footer .row2 .well-sm{
+	background-color: #02BA88;
+	margin-top: 20px;
+}
+footer .row2 .well-sm p{
+	padding-top: 8px;
+	color: white;
+	text-align: center;
+}
+/*Start of signup section*/
+.signUp .well-lg{
+	background-color: #3490F9;
+	height: 580px;
+	margin-top: 10px;
+}
+.signUp .well-lg .newImg1{
+	margin-top: 10px;
+	width: 45px;
+	height: 45px;
+	margin-left: 25px;
+}
+.signUp .well-lg .newImg2{
+	width: 70%;
+	padding-top: 20px;
+	margin-left: 50px;
+}
+.signUp .well-lg h4{
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 10px;
+	color: white;
+}
+.signUp .well-lg h2{
+	padding-top: 40px;
+	padding-left: 25px;
+	color: white;
+}
+.signUp form .registerHeading{
+	padding-top: 100px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.signUp form h5{
+	padding-top: 30px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.signUp form p{
+	padding-left: 50px;
+}		
+.signUp form .flabel{
+	padding-left: 35px;
+}
+.signUp form .fname{
+	margin-left: 35px;
+}
+.signUp form .pwlabel{
+	padding-top: 10px;
+	padding-left: 35px;
+}
+.signUp form .pwd{
+	margin-left: 35px;
+}
+.signUp form .plabel{
+	padding-top: 10px;
+	padding-left: 35px;
+}
+.signUp form .pnum{
+	margin-left: 35px;
+}
+.signUp form .elabel{
+	padding-top: 10px;
+}
+.signUp form .clabel{
+	padding-top: 10px;
+}
+.signUp form .cbox{
+	margin-top: 12px;
+	margin-left: 35px;
+}
+.signUp form .cbox1{
+	margin-left: 35px;
+}
+.signUp form .pr1{
+	display: inline-flex;
+	padding-left: 10px;
+}
+.signUp form .btn-sm{
+	margin-left: 35px;
+	width: 150px;
+	font-weight: bold;
+	height: 35px;
+}
+.signUp form .pg1{
+	padding-left: 35px;
+	padding-top: 10px;
+}
+.signUp form .pg1 a{
+	font-weight: bold;
+}
+/*end of signup page css*/
+
+/*start of login page css*/
+/*Start of signup section*/
+.Login .well-lg{
+	background-color: #02BA88;
+	height: 580px;
+	width: 540px;
+	margin-top: 10px;
+}
+.Login .loginHeading{
+	color: white;
+	font-style: italic;
+}
+.Login .img8{
+	width: 60%;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.Login .img7{
+	width: 45px;
+	height: 45px;
+	margin-left: 40px;
+}
+.Login .p{
+	color: white;
+	padding-top: 5px;
+}
+.Login form .uName{
+	border-radius: 10px;
+	margin-top: 50px;
+	width: 400px;
+	border-color: white;
+	height: 40px;
+	margin-left: 20px;
+	font-style: italic;
+	padding-left: 10px;
+}
+.Login form .password{
+	border-radius: 10px;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-color: white;
+	height: 40px;
+	font-style: italic;
+	padding-left: 10px;
+}
+.Login .loginHeading{
+	font-style: italic;
+	font-size: 22px;
+	display: inline-block;
+	padding-left: 100px;
+	padding-top: 10px;
+	color: white;
+}
+.Login .loginHeading1{
+	padding-top: 190px;
+	color: grey;
+	font-size: 22px;
+	font-style: italic;
+	padding-right: 100px;
+}
+.Login .btn-success{
+	margin-top: 28px;
+	border-radius: 10px;
+	margin-left: 180px;
+	width: 70px;
+	font-style: italic;
+}
+.Login form .pg2{
+	padding-top: 20px;
+	padding-left: 206px;
+}
